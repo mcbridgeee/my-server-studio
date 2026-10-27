@@ -45,7 +45,7 @@ reviewed, selected evidence; never commit credentials or raw server output.
 | Preservation of unrelated services | 7 existing containers unchanged (identity, state, published ports); not a whole-host audit |
 | Own prediction, check interpretation, browser observation and keep/revise reason | [LEARNING.md](LEARNING.md), all four recorded; assistance disclosed |
 | Accuracy review before publishing learner excerpts | Learner reviewed 2026-10-27; see [LEARNING.md](LEARNING.md#review) |
-| Actual PR, latest CI, merge and issue closure | [PR #2](https://github.com/mcbridgeee/my-server-studio/pull/2) merged 2026-10-27 (`cdd0f22`); [issue #1](https://github.com/mcbridgeee/my-server-studio/issues/1) closed as completed |
+| Actual PR, latest CI, merge and issue closure | [PR #2](https://github.com/mcbridgeee/my-server-studio/pull/2) merged 2026-10-27 (`cdd0f22`); [issue #1](https://github.com/mcbridgeee/my-server-studio/issues/1) closed as completed; post-merge main CI [run 40587187677](https://github.com/mcbridgeee/my-server-studio/actions/runs/40587187677) passed |
 
 Link the exported `studio/evidence.json`, actual CI and issue/PR when available.
 CI does not deploy this server. A fixture, green check, timestamp, closed issue
