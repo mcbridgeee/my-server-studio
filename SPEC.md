@@ -40,12 +40,12 @@ reviewed, selected evidence; never commit credentials or raw server output.
 
 | Evidence | Actual result / link |
 |---|---|
-| Prepared Black/Pylint/pytest and real-image browser checks | Passed locally 2026-10-27 with local Docker: Black, Pylint, 91 pytest, 2 E2E. PR CI pending |
+| Prepared Black/Pylint/pytest and real-image browser checks | Passed locally 2026-10-27 with local Docker: Black, Pylint, 91 pytest, 2 E2E. PR CI passed: [run 40585735050](https://github.com/mcbridgeee/my-server-studio/actions/runs/40585735050) (studio, validate, integration-contract; 2 E2E ran) |
 | Hosted image/commit, trusted HTTPS, valid and rejected API cases | Passed at new launch 2026-10-27T20:43Z: digest and commit match, trusted HTTPS, 6 × 7 = 42, ÷0 → 400, numeric string → 422. [evidence.json](studio/evidence.json) |
 | Preservation of unrelated services | 7 existing containers unchanged (identity, state, published ports); not a whole-host audit |
 | Own prediction, check interpretation, browser observation and keep/revise reason | [LEARNING.md](LEARNING.md), all four recorded; assistance disclosed |
 | Accuracy review before publishing learner excerpts | Learner reviewed 2026-10-27; see [LEARNING.md](LEARNING.md#review) |
-| Actual PR, latest CI, merge and issue closure | Pending |
+| Actual PR, latest CI, merge and issue closure | [PR #2](https://github.com/mcbridgeee/my-server-studio/pull/2) open, CI passed; merge and issue closure pending |
 
 Link the exported `studio/evidence.json`, actual CI and issue/PR when available.
 CI does not deploy this server. A fixture, green check, timestamp, closed issue
