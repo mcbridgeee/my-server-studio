@@ -92,5 +92,5 @@ AI ran setup, configure, plan and DNS lookups, drafted and posted
 learner's approval, and created branch `studio-001-calculator`. Learner ran the
 sudo steps (network list, doctor, launch) privately after reviewing the plan.
 AI exported [studio/evidence.json](studio/evidence.json) and ran the full local
-`check` (Black, Pylint, 91 pytest, 2 E2E with local Docker; all passed). Next:
-learner review of these excerpts, then commit, push, PR and CI.
+`check` (Black, Pylint, 91 pytest, 2 E2E with local Docker; all passed). Learner
+reviewed these excerpts; PR #2 merged after CI passed and issue #1 is closed.

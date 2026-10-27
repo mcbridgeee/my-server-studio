@@ -2,8 +2,8 @@
 
 ## STUDIO-001 · Launch a tested calculator on an existing server
 
-**Status:** New launch running and verified; learner keep decision recorded.
-**Next step:** Review excerpts, then PR, CI and issue closure.
+**Status:** Complete: new launch verified, learner record reviewed, PR #2 merged and issue #1 closed.
+**Next step:** None for STUDIO-001; next is the separate App Studio.
 **Instructor implementation:** [issue #9](https://github.com/kaw393939/373_hosting/issues/9).
 Create your own issue from the [lesson template](.github/ISSUE_TEMPLATE/studio-calculator.md).
 
@@ -40,12 +40,12 @@ reviewed, selected evidence; never commit credentials or raw server output.
 
 | Evidence | Actual result / link |
 |---|---|
-| Prepared Black/Pylint/pytest and real-image browser checks | Passed locally 2026-10-27 with local Docker: Black, Pylint, 91 pytest, 2 E2E. PR CI passed: [run 40585735050](https://github.com/mcbridgeee/my-server-studio/actions/runs/40585735050) (studio, validate, integration-contract; 2 E2E ran) |
+| Prepared Black/Pylint/pytest and real-image browser checks | Passed locally 2026-10-27 with local Docker: Black, Pylint, 91 pytest, 2 E2E. PR CI passed on its latest commit: [run 40586157525](https://github.com/mcbridgeee/my-server-studio/actions/runs/40586157525); earlier [run 40585735050](https://github.com/mcbridgeee/my-server-studio/actions/runs/40585735050) (studio, validate, integration-contract; 2 E2E ran in both) |
 | Hosted image/commit, trusted HTTPS, valid and rejected API cases | Passed at new launch 2026-10-27T20:43Z: digest and commit match, trusted HTTPS, 6 × 7 = 42, ÷0 → 400, numeric string → 422. [evidence.json](studio/evidence.json) |
 | Preservation of unrelated services | 7 existing containers unchanged (identity, state, published ports); not a whole-host audit |
 | Own prediction, check interpretation, browser observation and keep/revise reason | [LEARNING.md](LEARNING.md), all four recorded; assistance disclosed |
 | Accuracy review before publishing learner excerpts | Learner reviewed 2026-10-27; see [LEARNING.md](LEARNING.md#review) |
-| Actual PR, latest CI, merge and issue closure | [PR #2](https://github.com/mcbridgeee/my-server-studio/pull/2) open, CI passed; merge and issue closure pending |
+| Actual PR, latest CI, merge and issue closure | [PR #2](https://github.com/mcbridgeee/my-server-studio/pull/2) merged 2026-10-27 (`cdd0f22`); [issue #1](https://github.com/mcbridgeee/my-server-studio/issues/1) closed as completed |
 
 Link the exported `studio/evidence.json`, actual CI and issue/PR when available.
 CI does not deploy this server. A fixture, green check, timestamp, closed issue
